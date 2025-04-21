@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"leetcode/pkg/algorithms"
+	"leetcode/pkg/algorithms/sorting"
 )
 
 func main() {
 	input := []int{4, 2, 4, 4, 3}
 
-	algorithms.QuickSort(input)
+	sorting.QuickSort(input)
 
 	fmt.Println(input)
 }

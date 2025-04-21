@@ -1,4 +1,4 @@
-package algorithms
+package sorting
 
 // func Test_quickSort(t *testing.T) {
 // 	tests := []struct {

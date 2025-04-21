@@ -1,4 +1,4 @@
-package algorithms
+package sorting
 
 // QuickSort sorts an integer slice in ascending order using the quicksort algorithm.
 // It modifies the slice in-place.
