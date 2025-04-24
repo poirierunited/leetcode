@@ -29,10 +29,13 @@ func main() {
 
 func isLexicoSorted(order string, words []string) bool {
 	rank := make(map[byte]int)
+
+	// O(26) --> O(1)
 	for i := 0; i < len(order); i++ {
 		rank[order[i]] = i
 	}
 
+	// O(n * m) ->
 	for i := 0; i < len(words)-1; i++ {
 		w1, w2 := words[i], words[i+1]
 
